@@ -1,7 +1,7 @@
 express=require("express")
 app=express()
 
-product=require("./routs/product_rout")
+product=require("./routs/products_routs")
 
 app.use("/routs/product_rout",product)
 
